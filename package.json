@@ -1,9 +1,12 @@
 {
+  "homepage" : "https://Priyajit102.github.io/Student-Hr_frontend"
   "name": "student-hr-frontend",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
+    "predeploy":"npm run build"
+    "deploy":"gh-pages -d build"
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
